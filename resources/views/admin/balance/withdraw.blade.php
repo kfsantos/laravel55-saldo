@@ -21,7 +21,7 @@
             <form action="{{ route('withdraw.store') }}" method="post">
                 {!! csrf_field()!!}
                 <div class="form-group">
-                    <input type="text" placeholder="Valor da Retirada" name="value">
+                    <input class="form-control" type="text" placeholder="Valor da Retirada" name="value">
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-success">Sacar</button>
